@@ -1,12 +1,12 @@
 {
-    "name": "cordova-plugin-hms-analytics",
+    "name": "cordova-plugin-hms-analytics-rs",
     "description": "Cordova HMS Analytics Plugin",
     "version": "5.1.0-301",
     "main": "./www/index.js",
     "types": "./types/index.d.ts",
     "repository": {
         "type": "git",
-        "url": "https://github.com/HMS-Core/hms-cordova-plugin.git",
+        "url": "https://github.com/alexeyivanov94/cordova-plugin-hms-analytics-rs",
         "directory": "cordova-plugin-hms-analytics"
     },
     "bugs": "https://github.com/HMS-Core/hms-cordova-plugin/issues",
@@ -15,7 +15,7 @@
     "licenseFilename": "LICENCE",
     "readmeFilename": "README.md",
     "cordova": {
-        "id": "cordova-plugin-hms-analytics",
+        "id": "cordova-plugin-hms-analytics-rs",
         "platforms": [
             "android",
             "ios"

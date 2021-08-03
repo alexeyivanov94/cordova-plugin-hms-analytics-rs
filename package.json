@@ -1,7 +1,7 @@
 {
     "name": "cordova-plugin-hms-analytics-rs",
     "description": "Cordova HMS Analytics Plugin",
-    "version": "5.1.1-301",
+    "version": "5.1.1-302",
     "main": "./www/index.js",
     "types": "./types/index.d.ts",
     "repository": {
@@ -17,7 +17,6 @@
         "id": "cordova-plugin-hms-analytics-rs",
         "platforms": [
             "android",
-            "ios"
         ]
     },
     "keywords": [

@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<plugin id="cordova-plugin-hms-analytics-rs" version="5.1.0-301" 
+<plugin id="cordova-plugin-hms-analytics-rs" version="5.1.0-302" 
     xmlns="http://apache.org/cordova/ns/plugins/1.0" 
     xmlns:android="http://schemas.android.com/apk/res/main">
     <name>HMS Analytics</name>
     <description>Cordova HMS Analytics Plugin</description>
     <license>Apache 2.0</license>
-    <keywords>cordova, android, ios, plugin, huawei, hms, hms-analytics, analytics</keywords>
+    <keywords>cordova, android, plugin, huawei, hms, hms-analytics, analytics</keywords>
 
     <repo>git+https://github.com/HMS-Core/hms-cordova-plugin.git</repo>
     <issue>https://github.com/HMS-Core/hms-cordova-plugin/issues</issue>
@@ -64,28 +64,5 @@
         <source-file src="src/android/src/main/java/com/huawei/hms/cordova/analytics/viewmodel/HMSAnalyticsViewModel.java" target-dir="src/com/huawei/hms/cordova/analytics/viewmodel" />
         <source-file src="src/android/src/main/java/com/huawei/hms/cordova/analytics/presenter/HMSAnalyticsContract.java" target-dir="src/com/huawei/hms/cordova/analytics/presenter" />
         <source-file src="src/android/src/main/java/com/huawei/hms/cordova/analytics/HMSAnalyticsContentProvider.java" target-dir="src/com/huawei/hms/cordova/analytics" />
-    </platform>
-
-    <platform name="ios">
-        <config-file target="config.xml" parent="/*">
-            <feature name="HMSAnalytics">
-                <param name="ios-package" value="CordovaHMSAnalytics" />
-                <param name="onload" value="true" />
-            </feature>
-        </config-file>
-        <source-file src="src/ios/CordovaHMSAnalytics.swift" />
-        <source-file src="src/ios/HMSAnalyticsLogger.swift" />
-        <source-file src="src/ios/HMSAnalyticsViewModel.swift" />
-        <source-file src="src/ios/AppDelegate+HMSAnalyticsPlugin.m" />
-        <header-file src="src/ios/AppDelegate+HMSAnalyticsPlugin.h" />
-
-        <podspec>
-            <config>
-                <source url="https://cdn.cocoapods.org/" />
-            </config>
-            <pods use-frameworks="true">
-                <pod name="HiAnalytics" spec="5.1.0.300" />
-            </pods>
-        </podspec>
     </platform>
 </plugin>

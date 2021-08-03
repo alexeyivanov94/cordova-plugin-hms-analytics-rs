@@ -11,7 +11,6 @@
         "cordova",
         "ecosystem:cordova",
         "cordova-android",
-        "cordova-ios",
         "analytics",
         "hms-analytics",
         "huawei-analytics",
